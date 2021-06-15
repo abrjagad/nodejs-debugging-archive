@@ -1,0 +1,1 @@
+"use strict";module.exports=function(i){i.initConfig({"node-inspector":{dev:{}},uglify:{dev:{files:{"dist/output.min.js":["./print.js"]}}}}),i.loadNpmTasks("grunt-contrib-uglify"),i.loadNpmTasks("grunt-node-inspector"),i.registerTask("default",["uglify"])};

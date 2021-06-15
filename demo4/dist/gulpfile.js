@@ -1,0 +1,1 @@
+var gulp=require("gulp"),nodeInspector=require("gulp-node-inspector"),uglify=require("gulp-uglify");gulp.task("debug",function(){gulp.src(["./**.js"]).pipe(uglify()).pipe(gulp.dest("dist"))});
